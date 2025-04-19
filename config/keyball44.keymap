@@ -106,10 +106,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&none  &none  &none  &none  &none  &none             &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none             &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none             &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none             &none  &none                              &none
+&none   &none   &none           &none           &none            &none              &none   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &none
+&none   &none   &none           &kp UP_ARROW    &none            &none              &none   &kp N4        &kp N5        &kp N6        &none  &none
+&none   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none              &kp N0  &kp N1        &kp N2        &kp N3        &none  &none
+&trans  &trans  &trans          &trans          &trans                      &trans  &trans                                                   &trans
             >;
         };
 
