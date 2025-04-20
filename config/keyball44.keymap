@@ -82,7 +82,7 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESCAPE  &kp Q     &kp W            &kp E                 &kp R  &kp T                     &kp Y      &kp U  &kp I      &kp O    &kp P      &kp DELETE
+&kp ESCAPE  &kp Q     &kp W            &kp E                 &kp R  &kp T                     &kp Y      &kp U  &kp I      &kp O    &kp P      &kp MINUS
 &kp TAB     &kp A     &kp S            &kp D                 &kp F  &kp G                     &kp H      &kp J  &kp K      &kp L    &kp SEMI   &kp COLON
 &sl 2       &kp Z     &kp X            &kp C                 &kp V  &kp B                     &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp BSLH
 &kp LGUI    &kp LALT  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &sl 5             &kp BACKSPACE  &kp ENTER                                        &sl 3
@@ -102,40 +102,40 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp ESCAPE      &kp EXCLAMATION  &kp AT_SIGN      &kp HASH              &kp DOLLAR    &kp PERCENT                     &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
-&kp LEFT_SHIFT  &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1          &bt BT_SEL 2  &none                           &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT                &none
-&none           &none            &none            &none                 &none         &none                           &kp UNDERSCORE  &kp PLUS       &none             &none                 &kp NON_US_BACKSLASH   &none
-&kp LGUI        &kp LALT         &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &none                          &kp BACKSPACE  &kp ENTER                                                                                     &none
+&kp ESCAPE      &kp EXCLAMATION  &kp AT_SIGN      &kp HASH              &kp DOLLAR    &kp PERCENT                     &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp LEFT_SHIFT  &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1          &bt BT_SEL 2  &trans                          &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT                &trans
+&trans          &trans           &trans           &trans                &trans        &trans                          &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp NON_US_BACKSLASH   &trans
+&kp LGUI        &kp LALT         &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans                         &kp BACKSPACE  &kp ENTER                                                                                     &trans
             >;
         };
 
         function_layer {
             label = "FUN";
             bindings = <
-&kp ESCAPE  &kp F1    &kp F2           &kp F3                &kp F4   &none                     &none      &none  &none  &none  &none  &none
-&kp TAB     &kp F5    &kp F6           &kp F7                &kp F8   &none                     &none      &none  &none  &none  &none  &none
-&none       &kp F9    &kp F10          &kp F11               &kp F12  &none                     &none      &none  &none  &none  &none  &none
-&kp LGUI    &kp LALT  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &none               &kp BACKSPACE  &kp ENTER                              &none
+&kp ESCAPE  &kp F1    &kp F2           &kp F3                &kp F4   &trans                     &trans     &trans  &trans  &trans  &trans  &trans
+&kp TAB     &kp F5    &kp F6           &kp F7                &kp F8   &trans                     &trans     &trans  &trans  &trans  &trans  &trans
+&trans      &kp F9    &kp F10          &kp F11               &kp F12  &trans                     &trans     &trans  &trans  &trans  &trans  &trans
+&kp LGUI    &kp LALT  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans               &kp BACKSPACE  &kp ENTER                                  &trans
             >;
         };
 
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp ESCAPE  &kp Q  &kp W            &kp E                 &kp R  &kp T                     &none          &none      &none      &none      &none  &none
-&kp TAB     &kp A  &kp S            &kp D                 &kp F  &kp G                     &kp PAGE_UP    &mkp LCLK  &mkp RCLK  &mkp MCLK  &none  &none
-&none       &kp Z  &kp X            &kp C                 &kp V  &kp B                     &kp PAGE_DOWN  &none      &none      &none      &none  &none
-&none       &none  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &none             &kp BACKSPACE  &kp ENTER                                              &none
+&kp ESCAPE  &trans  &trans           &trans                &trans  &trans                     &trans         &trans     &trans     &trans     &trans  &trans
+&kp TAB     &trans  &trans           &trans                &trans  &trans                     &kp PAGE_UP    &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
+&trans      &trans  &trans           &trans                &trans  &trans                     &kp PAGE_DOWN  &trans     &trans     &trans     &trans  &trans
+&trans      &trans  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans              &kp BACKSPACE  &kp ENTER                                               &trans
             >;
         };
 
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp ESC  &none  &none            &kp UP_ARROW          &none            &none                     &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &kp DELETE
-&kp TAB  &none  &kp LEFT_ARROW   &kp DOWN_ARROW        &kp RIGHT_ARROW  &none                     &kp MINUS  &kp N4        &kp N5        &kp N6        &kp SLASH     &kp EQUAL
-&none    &none  &none            &none                 &none            &none                     &kp N0     &kp N1        &kp N2        &kp N3        &none         &none
-&none    &none  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &none                       &kp BACKSPACE  &kp ENTER                                                          &none
+&kp ESC  &trans  &trans           &kp UP_ARROW          &trans           &trans                  &trans     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &kp MINUS
+&kp TAB  &trans  &kp LEFT_ARROW   &kp DOWN_ARROW        &kp RIGHT_ARROW  &trans                  &trans     &kp N4        &kp N5        &kp N6        &kp ASTRK  &kp PLUS
+&trans   &trans  &trans           &trans                &trans           &trans                  &kp N0     &kp N1        &kp N2        &kp N3        &kp COLON  &kp EQUAL
+&trans   &trans  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans                       &kp DELETE  &kp ENTER                                                       &trans
             >;
         };
 
