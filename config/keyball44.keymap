@@ -92,9 +92,9 @@
         NOTHING {
             label = "NONE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                     &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &kp DEL
-&trans  &trans  &trans  &trans  &trans  &trans                     &kp MINUS  &kp N4        &kp N5        &kp N6        &kp SLASH     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                     &kp N0     &kp N1        &kp N2        &kp N3        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &kp PLUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &kp DEL
+&trans  &trans  &trans  &trans  &trans  &trans                     &kp MINUS    &kp N4        &kp N5        &kp N6        &kp SLASH     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &kp N0       &kp N1        &kp N2        &kp N3        &trans        &trans
 &trans  &trans  &trans  &trans  &trans              &kp BACKSPACE  &lt 3 ENTER                                                          &trans
             >;
         };
@@ -105,17 +105,17 @@
 &kp ESCAPE  &kp EXCLAMATION  &kp JP_DQUOTE    &kp HASH              &kp DOLLAR    &kp PERCENT                     &kp AMPERSAND  &kp JP_QUOTE  &kp JP_LPAREN  &kp JP_RPAREN     &trans     &trans
 &kp TAB     &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1          &bt BT_SEL 2  &trans                          &trans         &kp JP_AT     &kp JP_LBRACE  &kp JP_RBRACE     &kp SEMI   &trans
 &trans      &trans           &trans           &trans                &trans        &trans                          &trans         &trans        &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &kp JP_UNDERSCORE
-&kp LGUI    &kp LALT         &mt RCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans                         &kp BACKSPACE  &lt 3 ENTER                                                                &trans
+&kp LGUI    &kp LALT         &mt RCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans                         &kp BACKSPACE  &lt 3 ENTER                                                              &trans
             >;
         };
 
         function_layer {
             label = "FUN";
             bindings = <
-&kp ESCAPE  &trans  &trans  &kp UP_ARROW  &trans  &trans                     &trans     &kp F9    &kp F10          &kp F11               &kp F12  &trans
-&kp TAB     &trans  &kp LEFT_ARROW   &kp DOWN_ARROW        &kp RIGHT_ARROW   &trans                     &trans     &kp F5    &kp F6           &kp F7                &kp F8  &trans
-&trans      &trans  &trans  &trans  &trans   &trans                     &trans     &kp F1    &kp F2           &kp F3                &kp F4  &trans
-&kp LGUI    &kp LALT  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans               &kp BACKSPACE  &lt 3 ENTER                                  &trans
+&kp ESCAPE  &trans    &trans           &kp UP_ARROW          &trans           &trans                  &trans       &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&kp TAB     &trans    &kp LEFT_ARROW   &kp DOWN_ARROW        &kp RIGHT_ARROW  &trans                  &trans       &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans      &trans    &trans           &trans                &trans           &trans                  &trans       &kp F1  &kp F2   &kp F3   &kp F4   &trans
+&kp LGUI    &kp LALT  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans                       &kp DELETE  &lt 3 ENTER                                     &trans
             >;
         };
 
@@ -125,7 +125,7 @@
 &kp ESCAPE  &trans  &trans           &trans                &trans  &trans                     &trans         &trans     &trans     &trans     &trans  &trans
 &kp TAB     &trans  &trans           &trans                &trans  &trans                     &kp PAGE_UP    &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
 &trans      &trans  &trans           &trans                &trans  &trans                     &kp PAGE_DOWN  &trans     &trans     &trans     &trans  &trans
-&trans      &trans  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans              &kp BACKSPACE  &lt 3 ENTER                                               &trans
+&trans      &trans  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans              &kp BACKSPACE  &lt 3 ENTER                                             &trans
             >;
         };
 
@@ -135,7 +135,7 @@
 &kp ESC  &trans  &trans           &kp UP_ARROW          &trans           &trans                  &kp JP_PIPE   &kp N7  &kp N8  &kp N9  &kp SLASH        &kp MINUS
 &kp TAB  &trans  &kp LEFT_ARROW   &kp DOWN_ARROW        &kp RIGHT_ARROW  &trans                  &kp JP_TILDE  &kp N4  &kp N5  &kp N6  &kp JP_ASTERISK  &kp JP_PLUS
 &trans   &trans  &trans           &trans                &trans           &trans                  &kp N0        &kp N1  &kp N2  &kp N3  &kp JP_CARET     &kp JP_EQUAL
-&trans   &trans  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans                       &kp DELETE  &lt 3 ENTER                                              &trans
+&trans   &trans  &mt LCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans                       &kp DELETE  &lt 3 ENTER                                            &trans
             >;
         };
 
