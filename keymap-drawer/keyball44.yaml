@@ -99,9 +99,9 @@ layers:
   - '%'
   - ^
   - '&'
-  - '*'
   - (
   - )
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:bluetooth-off$$
@@ -123,8 +123,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - _
   - +
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - <
+  - '>'
   - \
   - {t: '$$mdi:transfer$$', type: trans}
   - LGUI
