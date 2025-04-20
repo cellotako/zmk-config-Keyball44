@@ -36,7 +36,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: \, s: '|'}
+  - '0x89'
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - {t: '`', h: SYM, s: '~'}
