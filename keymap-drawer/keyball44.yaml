@@ -177,7 +177,7 @@ layers:
   - {t: '`', h: '$$mdi:apple-keyboard-control$$', s: '~'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', h: FUN, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
