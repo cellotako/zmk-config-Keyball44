@@ -103,8 +103,8 @@
             label = "SYM";
             bindings = <
 &kp ESCAPE      &kp EXCLAMATION  &kp JP_DQUOTE  &kp HASH              &kp DOLLAR    &kp PERCENT                     &kp AMPERSAND  &kp SINGLE_QUOTE  &kp JP_LPAREN  &kp JP_RPAREN  &trans  &trans
-&kp LEFT_SHIFT  &bt BT_CLR       &bt BT_SEL 0       &bt BT_SEL 1          &bt BT_SEL 2  &trans                          &trans         &kp AT            &kp JP_LBRACE      &kp JP_RBRACE      &trans  &trans
-&kp LCTRL       &trans           &trans             &trans                &trans        &trans                          &trans         &trans            &kp LESS_THAN         &kp GREATER_THAN       &trans  &trans
+&kp LEFT_SHIFT  &bt BT_CLR       &bt BT_SEL 0       &bt BT_SEL 1          &bt BT_SEL 2  &trans                          &trans         &kp AT            &kp JP_LBRACE      &kp JP_RBRACE      &SEMI  &trans
+&kp LCTRL       &trans           &trans             &trans                &trans        &trans                          &trans         &trans            &kp LESS_THAN         &kp GREATER_THAN       &SLASH  &JP_UNDERSCORE
 &kp LGUI        &kp LALT         &trans             &mt LEFT_SHIFT SPACE  &trans                         &kp BACKSPACE  &kp ENTER                                                                             &trans
             >;
         };
@@ -132,8 +132,8 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp ESC    &trans  &trans          &kp UP_ARROW          &trans           &trans                  &kp PIPE   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &kp MINUS
-&kp TAB    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW  &trans                  &kp TILDE  &kp N4        &kp N5        &kp N6        &kp ASTRK  &kp PLUS
+&kp ESC    &trans  &trans          &kp UP_ARROW          &trans           &trans                  &kp JP_PIPE   &kp N7  &kp N8  &kp N9  &kp SLASH  &kp MINUS
+&kp TAB    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW  &trans                  &kp JP_TILDE  &kp N4        &kp N5        &kp N6        &kp ASTRK  &kp PLUS
 &kp LCTRL  &trans  &trans          &trans                &trans           &trans                  &kp N0     &kp N1        &kp N2        &kp N3        &kp CARET  &kp EQUAL
 &trans     &trans  &trans          &mt LEFT_SHIFT SPACE  &trans                       &kp DELETE  &kp ENTER                                                       &trans
             >;
