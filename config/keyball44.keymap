@@ -102,8 +102,8 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp ESCAPE      &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH              &kp DOLLAR    &kp PERCENT                     &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-&kp LEFT_SHIFT  &bt BT_CLR       &bt BT_SEL 0       &bt BT_SEL 1          &bt BT_SEL 2  &trans                          &trans         &kp AT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+&kp ESCAPE      &kp EXCLAMATION  &kp JP_DQUOTE  &kp HASH              &kp DOLLAR    &kp PERCENT                     &kp AMPERSAND  &kp SINGLE_QUOTE  &kp JP_LPAREN  &kp JP_RPAREN  &trans  &trans
+&kp LEFT_SHIFT  &bt BT_CLR       &bt BT_SEL 0       &bt BT_SEL 1          &bt BT_SEL 2  &trans                          &trans         &kp AT            &kp JP_LBRACE      &kp JP_RBRACE      &trans  &trans
 &kp LCTRL       &trans           &trans             &trans                &trans        &trans                          &trans         &trans            &kp LESS_THAN         &kp GREATER_THAN       &trans  &trans
 &kp LGUI        &kp LALT         &trans             &mt LEFT_SHIFT SPACE  &trans                         &kp BACKSPACE  &kp ENTER                                                                             &trans
             >;
