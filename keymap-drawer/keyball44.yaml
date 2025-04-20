@@ -93,14 +93,14 @@ layers:
   SYM:
   - $$mdi:keyboard-esc$$
   - '!'
-  - '"'
+  - '@'
   - '#'
   - $
   - '%'
   - '&'
   - {t: '''', s: '"'}
+  - '*'
   - (
-  - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
@@ -111,8 +111,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '@'
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - '}'
+  - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
