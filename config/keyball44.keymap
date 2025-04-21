@@ -132,7 +132,7 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans    &trans          &kp UP_ARROW    &kp PG_UP        &trans                   &kp JP_PIPE   &kp N7  &kp N8  &kp N9  &kp SLASH        &kp UNDER
+&trans  &trans    &trans          &kp UP_ARROW    &kp PG_UP        &trans                   &kp JP_PIPE   &kp N7  &kp N8  &kp N9  &kp SLASH        &kp JP_UNDERSCORE
 &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                  &kp JP_TILDE  &kp N4  &kp N5  &kp N6  &kp JP_ASTERISK  &kp JP_PLUS
 &trans  &trans    &trans          &trans          &kp PG_DN        &trans                   &kp N0        &kp N1  &kp N2  &kp N3  &kp JP_CARET     &kp JP_EQUAL
 &trans  &trans    &trans          &kp TAB         &trans                        &kp DELETE  &kp TAB                                                &trans
