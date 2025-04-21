@@ -237,7 +237,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: /, s: '?'}
-  - _
+  - Sft+0x87
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - $$mdi:arrow-left-bold$$
