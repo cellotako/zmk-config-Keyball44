@@ -104,7 +104,7 @@
             bindings = <
 &kp ESCAPE  &kp EXCLAMATION  &kp JP_DQUOTE    &kp HASH              &kp DOLLAR    &kp PERCENT                     &kp AMPERSAND  &kp JP_QUOTE  &kp JP_LPAREN  &kp JP_RPAREN     &trans     &trans
 &kp TAB     &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1          &bt BT_SEL 2  &trans                          &trans         &kp JP_AT     &kp JP_LBRACE  &kp JP_RBRACE     &kp SEMI   &trans
-&trans      &trans           &trans           &trans                &trans        &trans                          &trans         &trans        &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &kp JP_UNDERSCORE
+&trans      &trans           &trans           &trans                &trans        &trans                          &trans         &trans        &kp JP_LBRACKET  &kp JP_RBRACKET  &kp SLASH  &kp JP_UNDERSCORE
 &kp LGUI    &kp LALT         &mt RCTRL GRAVE  &mt LEFT_SHIFT SPACE  &trans                         &kp BACKSPACE  &lt 3 ENTER                                                              &trans
             >;
         };
