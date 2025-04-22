@@ -40,7 +40,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - SYM
-  - {t: '$$mdi:keyboard-space$$', h: FUN}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '`', h: SCROLL, s: '~'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
@@ -133,7 +133,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -175,10 +175,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-tab$$', type: held}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-tab$$', type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -268,7 +268,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {type: held}
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:keyboard-tab$$
+  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
