@@ -82,20 +82,20 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESCAPE      &kp Q     &kp W  &kp E        &kp R        &kp T                     &kp Y        &kp U  &kp I      &kp O    &kp P          &kp MINUS
-&kp LEFT_SHIFT  &kp A     &kp S  &kp D        &kp F        &kp G                     &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON  &kp JP_COLON
-&kp LCTRL       &kp Z     &kp X  &kp C        &kp V        &kp B                     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH      &kp JP_YEN
-&kp LGUI        &kp LALT  &mo 2  &lt 3 SPACE  &lt 5 GRAVE             &kp BACKSPACE  &lt 3 ENTER                                            &mo 4
+&kp ESCAPE      &kp Q     &kp W  &kp E            &kp R        &kp T                     &kp Y        &kp U  &kp I      &kp O    &kp P          &kp MINUS
+&kp LEFT_SHIFT  &kp A     &kp S  &kp D            &kp F        &kp G                     &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON  &kp JP_COLON
+&kp LCTRL       &kp Z     &kp X  &kp C            &kp V        &kp B                     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH      &kp JP_YEN
+&kp LGUI        &kp LALT  &mo 2  &mt RSHFT SPACE  &lt 5 GRAVE             &kp BACKSPACE  &lt 3 ENTER                                            &mo 4
             >;
         };
 
         NOTHING {
             label = "NONE";
             bindings = <
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans                     &kp PLUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &kp DEL
+&trans  &trans  &trans  &trans  &trans  &trans                     &kp PLUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &kp DEL
 &trans  &trans  &trans  &trans  &trans  &trans                     &kp MINUS    &kp N4        &kp N5        &kp N6        &kp SLASH     &trans
 &trans  &trans  &trans  &trans  &trans  &trans                     &kp N0       &kp N1        &kp N2        &kp N3        &trans        &trans
-&kp LGUI  &trans  &trans  &trans  &trans              &kp BACKSPACE  &lt 3 ENTER                                                          &trans
+&trans  &trans  &trans  &trans  &trans              &kp BACKSPACE  &lt 3 ENTER                                                          &trans
             >;
         };
 
@@ -105,17 +105,17 @@
 &trans  &kp EXCLAMATION  &kp JP_DQUOTE  &kp HASH      &kp DOLLAR    &kp PERCENT                  &kp JP_AMPERSAND  &kp JP_QUOTE  &kp JP_LPAREN    &kp JP_RPAREN    &trans  &kp JP_UNDERSCORE
 &trans  &bt BT_CLR       &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &trans                       &trans            &kp JP_AT     &kp JP_LBRACE    &kp JP_RBRACE    &trans  &trans
 &trans  &trans           &trans         &trans        &trans        &trans                       &trans            &trans        &kp JP_LBRACKET  &kp JP_RBRACKET  &trans  &trans
-&kp LGUI  &trans           &trans         &kp TAB       &trans                         &kp DELETE  &kp TAB                                                                   &trans
+&trans  &trans           &trans         &kp TAB       &trans                         &kp DELETE  &trans                                                                    &trans
             >;
         };
 
         function_layer {
             label = "FUN";
             bindings = <
-&trans  &trans    &trans          &kp UP_ARROW    &kp PG_UP        &trans                   &trans   &kp F9  &kp F10  &kp F11  &kp F12  &kp JP_UNDERSCORE
-&kp LEFT_SHIFT  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                  &trans   &kp F5  &kp F6   &kp F7   &kp F8   &trans
-&kp LCTRL  &trans    &trans          &trans          &kp PG_DN        &trans                   &trans   &kp F1  &kp F2   &kp F3   &kp F4   &trans
-&kp LGUI  &kp LALT    &trans          &kp TAB         &trans                        &kp DELETE  &kp TAB                                     &trans
+&trans  &trans    &trans          &kp UP_ARROW    &kp PG_UP        &trans                   &trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp JP_UNDERSCORE
+&trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                  &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans  &trans    &trans          &trans          &kp PG_DN        &trans                   &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
+&trans  &trans    &trans          &kp TAB         &trans                        &kp DELETE  &trans                                     &trans
             >;
         };
 
@@ -125,7 +125,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans     &trans     &trans     &trans  &trans
-&kp LGUI  &trans  &trans  &trans  &trans              &trans  &trans                                           &mo 4
+&trans  &trans  &trans  &trans  &trans              &trans  &trans                                           &trans
             >;
         };
 
@@ -135,7 +135,7 @@
 &trans  &trans    &trans          &kp UP_ARROW    &kp PG_UP        &trans                   &kp JP_PIPE   &kp N7  &kp N8  &kp N9  &kp SLASH        &kp JP_UNDERSCORE
 &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                  &kp JP_TILDE  &kp N4  &kp N5  &kp N6  &kp JP_ASTERISK  &kp JP_PLUS
 &trans  &trans    &trans          &trans          &kp PG_DN        &trans                   &kp N0        &kp N1  &kp N2  &kp N3  &kp JP_CARET     &kp JP_EQUAL
-&trans  &trans    &trans          &kp TAB         &trans                        &kp DELETE  &kp TAB                                                &trans
+&trans  &trans    &trans          &kp TAB         &trans                        &kp DELETE  &kp N0                                                 &trans
             >;
         };
 
